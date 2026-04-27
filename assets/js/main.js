@@ -1,2 +1,4 @@
-const date = new Date()
-document.getElementById("year").innerText = date.getFullYear()
+const year = document.getElementByIdnew ("year")
+if (year) {
+    year.textContent = new Date().getFullYear()
+}
